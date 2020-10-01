@@ -46,10 +46,11 @@ def top(input_list):
 
     >>> top(['Jan', 'Feb', 'Mar'])
     ['Jan', 'Feb']
+    
 
     """
-
-    return []
+    #del input_
+    return input_list[0:-1]
 
 
 def first_three(input_list):
