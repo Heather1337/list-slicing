@@ -212,8 +212,12 @@ def custom_contains(input_list, value):
         True
 
     """
-
-    return None
+    value_exists = False
+    for i in input_list:
+        if(i == value):
+            value_exists = True
+            break
+    return value_exists
 
 
 def custom_equality(some_list, another_list):
