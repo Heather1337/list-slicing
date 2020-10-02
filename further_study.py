@@ -190,7 +190,8 @@ def custom_reverse(input_list):
         True
 
     """
-
+    list_store = input_list[::-1]
+    input_list[0] = list_store
     pass
 
 
