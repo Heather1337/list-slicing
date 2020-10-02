@@ -235,8 +235,10 @@ def custom_equality(some_list, another_list):
         False
 
     """
-
-    return None
+    is_equal = False
+    if(some_list == another_list):
+        is_equal = True
+    return is_equal
 
 
 # This is the part were we actually run the doctests.
