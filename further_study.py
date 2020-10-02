@@ -106,6 +106,12 @@ def custom_remove(input_list, value):
         True
 
     """
+    index_count = 0
+    for i in input_list:
+        if(i == value):
+            del input_list[index_count]
+            index_count += 1
+            break
 
     pass
 
