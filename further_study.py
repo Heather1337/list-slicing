@@ -148,8 +148,12 @@ def custom_index(input_list, value):
         1
 
     """
-
-    return 0
+    list_index = -1
+    for i in input_list:
+        list_index += 1
+        if(i == value):
+            break
+    return list_index
 
 
 def custom_count(input_list, value):
